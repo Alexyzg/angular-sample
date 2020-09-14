@@ -1,0 +1,28 @@
+.heroes {
+    margin: 0 0 2em 0;
+    width: 400px;
+}
+
+.hero {
+    cursor: pointer;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    border-radius: 4px;
+}
+
+.hero:hover {
+    background-color: #DDD;
+}
+
+.hero.selected {
+    background-color: #CFD8DC;
+}
+
+.hero.selected:hover {
+    background-color: #BBD8DC;
+}
+
+.hero__text {
+    background-color: inherit;
+}
